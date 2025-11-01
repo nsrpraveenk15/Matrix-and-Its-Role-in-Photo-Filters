@@ -1,4 +1,4 @@
-# 🧮 Matrix and Its Role in Photo Filters
+# Matrix and Its Role in Photo Filters
 
 **Matrix-Based Photo Filters** is an interactive web project that demonstrates how **linear algebra** — specifically **matrix multiplication** — can be used to manipulate and combine **photo filters** such as *Grayscale*, *Sepia*, *Invert*, *Warm*, and *Cool*, all using **HTML5 Canvas**, **CSS**, and **Vanilla JavaScript**.
 
