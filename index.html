@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix-Based Photo Filters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>🧮 Matrix Photo Filter Editor</h2>
+  <input type="file" id="upload" accept="image/*"><br>
+  <canvas id="preview" width="400" height="400"></canvas>
+
+  <div id="filters"></div>
+
+  <div class="action-buttons">
+    <button onclick="combineFilters()">🧩 Combine Filters</button>
+    <button onclick="saveAsNewFilter()">💾 Save as New Filter</button>
+    <button onclick="resetFilters()">♻️ Reset</button>
+  </div>
+
+  <div id="active-filters"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
